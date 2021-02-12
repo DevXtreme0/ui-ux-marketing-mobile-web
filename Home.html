@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Treemart | Online Shopping in Sri Lanka</title>
+
+<link rel="icon" href="../Project/images/logog.png" />
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<meta name="description" content="Shopping for groceries is much easier with Treemart Online; Sri Lanka’s premier supermarket is the one stop shop for all your grocery &amp; household needs." />
+<meta name="keywords" content="grocery shopping online, online shopping sri lanka, grocery &amp; retail, keells super online, Treemart delivery service, office delivery, home delivery, sri lanka" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/chromeItems.css">
+<link rel="stylesheet" href="css/general.css">
+<!--link rel="stylesheet" type="text/css" href="css\jquery.mobile-1.4.5.min.css"-->
+
+
+<script src="Jquery/jquery-3.4.1.min.js"></script>
+<script src="Jquery/jquery-1.11.3.min.js"></script>
+<script src="Jquery\script.js"></script>
+<!--script src="Jquery\jquery.mobile-1.4.5.min.js"></script-->
+
+
+</head>
+
+<body data-role="none" class="home">
+
+	<div data-role="none" id="shortSlider">
+
+		<div data-role="none"  class="tag-slider">
+			<div data-role="none" class="marquee down" id="marquee-down-text">
+
+				<div class="sliding-words-wrapper">
+				<div class="sliding-words">
+					<span><a href="../Project/Product.html" style="text-decoration:none; color:white;"> Buy 2 Yogurts & Get 1 FREE</a> </span>
+					<span><a href="../Project/Competition.html" style="text-decoration:none; color:white;"> Play the wheel & Win Amazing Prizes</a> </span>
+					<span><a href="#" style="text-decoration:none; color:white;"> Vouchers for expenses above 5K!</a> </span>
+				</div>
+
+				</div>
+			</div>
+		  </div>
+	</div>
+
+<div data-role="none" id="myNav" class="overlay">
+	<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+	<img class="logoPanel" src= "images/logoPanel.png"></img>
+	<img class="logo" src= "images/logo.png"></img>
+	<img class="menueLine" src= "images/menueLine.png"></img>
+	<p class=logoTittle>Treemart</p>
+	<div class="greenLine"></div>
+
+	<div data-role="none" class="overlay-content">
+
+		<div data-role="none" class="accountSection">
+			<a  href="../Project/Login.html">Login</a>
+	  <br>
+			<a  href="../Project/SignUp.html">Signup</a></div>
+	  <br><br>
+			<a  href="../Project/Home.html">Home</a>
+			<br>
+			<a  href="../Project/Favourites.html">Favorites</a>
+			<br>
+			<a  href="#">Shopping Cart</a>
+			<br>
+			<a  href="../Project/Competition.html">Competition</a>
+	  <br><br>
+			<a  href="../Project/StoreLocate.html">Store Locator</a>
+			<br>
+			<a  href="../Project/AboutUs.html">About Us</a>
+			<br>
+			<a  href="../Project/Feedback.html">System Feedback</a>
+			<br>
+			<a  href="#">Help</a>
+			<br>
+		  </div>
+  </div>
+
+
+
+<div data-role="none" class="navigationPanel">
+
+
+
+<img class="logoPanelNavBar" src= "images/logoPanelNavBar.png">
+<img class="logoNavBar" src= "images/logoNavBar.png">
+<p class=logoTittleNavBar>Treemart</p>
+<img class="QRScanLogo" src= "images/QRScan.png">
+<p class=seperatorOne>|</p>
+<a href="../Project/SignUp.html"><img class="accountIcon" src= "images/accountIcon.png"></a>
+<p class=seperatorTwo>|</p>
+
+<a href="../Project/Login.html"><img class="loginIcon" src= "images/login.png">
+
+<p class=loginWordIcon>Login</p></a>
+
+<a href="../Project/SignUp.html"><img class="signUpIcon" src= "images/signUpIcon.png">
+
+<p class=signUpWordIcon>Sign Up</p></a>
+
+
+<img class="QRScanBig" src= "images/QRScanBig.png">
+<p class=QRScanBigWord>QR Scan</p>
+<img class="cartGreen" src= "images/cartGreen.png">
+<p class=cartGreenWord>Cart</p>
+<img class="cartIcon" src= "images/cartIcon.png">
+<p class=QRScanTittle>QR Scan</p>
+<a href="../Project/SignUp.html"><p class=account>Account</p></a>
+<p class=cart>Cart</p>
+<p class=horizontalLineSeperator src="images/horizontalSepratorLine.png"></p>
+<input type="text" class="searchBar" style="padding-left:10px;" id="searchbox" placeholder=" Enter your search item(s) here...">
+<p class="categories" style="padding-left:5px;" onclick="openNav2()">&#9660;Categories</p>
+
+<span data-role="none" class="hamburgerMenuIcon" style="cursor:pointer" onclick="openNav()">&#9776; </span>
+<img class="searchButton" src = "images/searchIcon.png" >
+</div>
+
+
+<div data-role="none" id="myNav2" class="overlay2">
+	<p href="javascript:void(0)" class="closebtn2" onclick="closeNav2()"><span style="color: #333333;">&times;</span></p>
+	<img class="logoPanel2" src= "images/logoPanel.png"></img>
+	<img class="logo2" src= "images/logo.png"></img>
+	<img class="menueLine2" src= "images/muneLineBlack.png"></img>
+	<p class="logoTittle2">Treemart</p>
+	<div class="greenLine2"></div>
+
+	<div class="overlay-content2">
+
+
+	  <a style="text-align:left;" href="#">Frozen Foods  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Pharmacy <span style="float:right;">&#9660;</span> </a>
+      <br>
+	  <a style="text-align:left;" href="#">Grocery <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Household  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Liqour  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Beverages  <span style="float:right;">&#9660;</span> </a>
+     <br>
+	 <a style="text-align:left;" href="#">Homeware  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Vegetables  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Meat  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Milk Powder  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Chocolates  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Soft Drinks  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Fruits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Biscuits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	</div>
+  </div>
+
+<div  role="main">
+
+  <div data-role="none" class="slideshow-container">
+
+	<div class="mySlides fade">
+
+	  <img src="images/bannerOne.jpg" style="width:100%">
+
+	</div>
+
+	<div class="mySlides fade">
+
+	  <img src="images/bannerTwo.jpg" style="width:100%">
+
+	</div>
+
+	<div class="mySlides fade">
+
+	  <img src="images/bannerFour.jpg" style="width:100%">
+
+	</div>
+
+	<a class="prev" onclick="plusSlidesOnBanners(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlidesOnBanners(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div class="slideDots"style="text-align:center">
+	  <span class="dot" onclick="currentSlideOnBanner(1)"></span>
+	  <span class="dot" onclick="currentSlideOnBanner(2)"></span>
+	  <span class="dot" onclick="currentSlideOnBanner(3)"></span>
+	</div>
+
+
+
+
+<div class="promotionProductPanel"></div>
+
+
+<div data-role="none" class ="promotionProductHeading">
+	<h1 >Our<b> Promotions</b></h1>
+	<a href="../Project/OurPromotions.html"><span class="promoViewAllWord">View All</span></a>
+</div>
+
+
+<div class="popularProductPanel"></div>
+
+<div class ="popularProductHeading">
+	<h1 >Most<b> Popular</b></h1>
+	<a href="../Project/MostPopular.html"><span class="popularViewAllWord">View All</span></a>
+</div>
+
+
+<div class="arrivalsProductPanel"></div>
+
+<div class ="arrivalsProductHeading">
+	<h1 >New<b> Arrivals</b> </h1>
+	<a href="../Project/NewArrivals.html"><span class="arrivalViewAllWord">View All</span></a>
+</div>
+
+
+
+<!-- Our Promotions Part Begins -->
+<div data-role="none" class="promotionSlider">
+
+	<div class="promoProduct">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+ <img class="productImage" src="images/yogurt.jpg">
+  <div class ="promotionTag">10% off</div>
+  <h2 class="productHeading">Anchor Yoghurt</h2>
+  <p class="wasPrice"><strike>Was: Rs.35.00 </strike></p>
+  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+	<p class="priceTag"><b>Rs.33.00</b></p>
+<p class="addToCart">Add</p>
+ <p  class="viewMorePage"><a href ="../Project/Product.html">View More</a></p>
+</div>
+
+<div class="promoProductTwo">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="productImage" src="images/hawaiian.jpg" >
+	<div class ="promotionTag">20% off</div>
+	<h2 class="productHeading">Hawaiian Cookies</h2>
+	<p class="wasPrice"><strike>Was: Rs.65.00</strike></p>
+	<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+	<p class="priceTag"><b>Rs.55.00</b></p>
+	<p class="addToCart">Add</p>
+	<p class="viewMore">View More</p>
+  </div>
+
+  <div class="promoProductThreeDuplicate">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+ <img class="productImage" src="images/fav_3.jpg">
+  <div class ="promotionTag">30% off</div>
+  <h2 class="productHeading">Choco Balls</h2>
+  <p class="wasPrice"><strike>Was: Rs.85.00 </strike></p>
+  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+	<p class="priceTag"><b>Rs.20.00</b></p>
+ <p class="addToCart">Add</p>
+ <p class="viewMore">View More</p>
+</div>
+
+<div class="promoProductFourDuplicate">
+	<a  id="favIcon" class="fa fa-heart"></a>
+	<img class="productImage" src="images/fav_2.jpg" >
+	<div class ="promotionTag">5% off</div>
+	<h2 class="productHeading">Curd</h2>
+	<p class="wasPrice"><strike>Was: Rs.69.00</strike></p>
+	<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+	<p class="priceTag"><b>Rs.60.00</b></p>
+	<p class="addToCart">Add</p>
+	<p class="viewMore">View More</p>
+
+  </div>
+
+</div>
+
+
+  <div data-role="none" class="promotionSlider">
+
+	<div class="promoProductThree">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/fav_3.jpg">
+	  <div class ="promotionTag">30% off</div>
+	  <h2 class="productHeading">Choco Balls</h2>
+	  <p class="wasPrice"><strike>Was: Rs.85.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.20.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductFour">
+		<a  id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="productImage" src="images/fav_2.jpg" >
+		<div class ="promotionTag">5% off</div>
+		<h2 class="productHeading">Curd</h2>
+		<p class="wasPrice"><strike>Was: Rs.69.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.60.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+	  </div>
+
+	  <div class="promoProductFiveDuplicate">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/fav_4.jpg">
+	  <div class ="promotionTag">90% off</div>
+	  <h2 class="productHeading">Instant Pudding</h2>
+	  <p class="wasPrice"><strike>Was: Rs.100.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.10.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductSixDuplicate">
+		<a  id="favIcon" class="fa fa-heart"></a>
+		<img class="productImage" src="images/choco.jpg" >
+		<div class ="promotionTag">20% off</div>
+		<h2 class="productHeading">Choco Brown</h2>
+		<p class="wasPrice"><strike>Was: Rs.100.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.80.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+
+	  </div>
+
+	  <div class="promoProductNewZero">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/bis2.jpg">
+	  <div class ="promotionTag">50% off</div>
+	  <h2 class="productHeading">Green Chip</h2>
+	  <p class="wasPrice"><strike>Was: Rs.500.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.100.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductNewZeroOne">
+		<a  id="favIcon" class="fa fa-heart"></a>
+		<img class="productImage" src="images/bis3.jpg" >
+		<div class ="promotionTag">60% off</div>
+		<h2 class="productHeading">Grand Chips</h2>
+		<p class="wasPrice"><strike>Was: Rs.100.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.400.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+
+	  </div>
+
+</div>
+
+
+<div data-role="none" class="promotionSlider">
+
+	<div class="promoProductFive">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/fav_4.jpg">
+	  <div class ="promotionTag">90% off</div>
+	  <h2 class="productHeading">Instant Pudding</h2>
+	  <p class="wasPrice"><strike>Was: Rs.100.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.10.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductSix">
+		<a  id="favIcon" class="fa fa-heart"></a>
+		<img class="productImage" src="images/choco.jpg" >
+		<div class ="promotionTag">20% off</div>
+		<h2 class="productHeading">Choco Brown</h2>
+		<p class="wasPrice"><strike>Was: Rs.100.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.80.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+	  </div>
+
+	  <div class="promoProductNewOne">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/pbutter.jpg">
+	  <div class ="promotionTag">99% off</div>
+	  <h2 class="productHeading">Peanut Butter</h2>
+	  <p class="wasPrice"><strike>Was: Rs.100.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.1.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductNewTwo">
+		<a  id="favIcon" class="fa fa-heart"></a>
+		<img class="productImage" src="images/rice-biscuits.jpg" >
+		<div class ="promotionTag">50% off</div>
+		<h2 class="productHeading">Rice Biscuits</h2>
+		<p class="wasPrice"><strike>Was: Rs.1000.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.500.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+
+	  </div>
+
+	  <div class="promoProductNewThree">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+	 <img class="productImage" src="images/snicker.jpg">
+	  <div class ="promotionTag">1% off</div>
+	  <h2 class="productHeading">Snickers</h2>
+	  <p class="wasPrice"><strike>Was: Rs.50.00 </strike></p>
+	  <p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.49.00</b></p>
+	 <p class="addToCart">Add</p>
+	 <p class="viewMore">View More</p>
+	</div>
+
+	<div class="promoProductNewFour">
+		<a  id="favIcon" class="fa fa-heart"></a>
+		<img class="productImage" src="images/anchor.jpg" >
+		<div class ="promotionTag">10% off</div>
+		<h2 class="productHeading">Anchor Milk Powder</h2>
+		<p class="wasPrice"><strike>Was: Rs.325.00</strike></p>
+		<p class="memberDealWord"><b>Treemart Member Deal:</b></p>
+		<p class="priceTag"><b>Rs.275.00</b></p>
+		<p class="addToCart">Add</p>
+		<p class="viewMore">View More</p>
+
+	  </div>
+</div>
+
+<a class="prevPromoProducts" onclick="plusSlidesOnPromo(-1)" >&#10094;</a>
+<a class="nextPromoProducts" onclick="plusSlidesOnPromo(1)">&#10095;</a>
+<br>
+<div class="slideDotsPromoProducts"style="text-align:center">
+  <span class="dotPromoProducts" onclick="currentSlideOnPromo(1)" ></span>
+  <span class="dotPromoProducts" onclick="currentSlideOnPromo(2)"></span>
+  <span class="dotPromoProducts" onclick="currentSlideOnPromo(3)"></span>
+</div>
+
+<!-- Most Popular Part Begins HERE -->
+
+
+
+<div data-role="none" class="popularSlider">
+
+<div class="popularProduct">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="popularImage" src="images/mars.jpg">
+	<h2 class="popularHeading">Mars Chocolate</h2>
+	<p class="popularityWord"><b>Popularity: 134 ratings</b></p>
+	<p class="popularityStar">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+	<p class="popularPriceTag"><b>Rs.50.00</b></p>
+	<p class="popularAddToCart">Add</p>
+	<p class="popularViewMore">View More</p>
+</div>
+
+<div class="popularProductTwo">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="popularImage" src="images/choco.jpg">
+	<h2 class="popularHeading">Choco Bits</h2>
+	<p class="popularityWord"><b>Popularity: 1,934 ratings</b></p>
+	<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+	<p class="popularPriceTag"><b>Rs.255.00</b></p>
+	<p class="popularAddToCart">Add</p>
+	<p class="popularViewMore">View More</p>
+</div>
+
+<div class="popularProductThreeDuplicate">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="popularImage" src="images/creamsoda.jpg">
+	<h2 class="popularHeading">Creamsoda</h2>
+	<p class="popularityWord"><b>Popularity: 1,534 ratings</b></p>
+	<p class="popularityStar">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+	<p class="popularPriceTag"><b>Rs.34.00</b></p>
+	<p class="popularAddToCart">Add</p>
+	<p class="popularViewMore">View More</p>
+</div>
+
+<div class="popularProductFourDuplicate">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="popularImage" src="images/cola.jpg">
+	<h2 class="popularHeading">Coca cola</h2>
+	<p class="popularityWord"><b>Popularity: 934 ratings</b></p>
+	<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+	<p class="popularPriceTag"><b>Rs.244.00</b></p>
+	<p class="popularAddToCart">Add</p>
+	<p class="popularViewMore">View More</p>
+</div>
+
+</div>
+
+
+<div data-role="none" class="popularSlider">
+
+	<div class="popularProductThree">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/creamsoda.jpg">
+		<h2 class="popularHeading">Creamsoda</h2>
+		<p class="popularityWord"><b>Popularity: 1,534 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+		<p class="popularPriceTag"><b>Rs.34.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+	<div class="popularProductFour">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/cola.jpg">
+		<h2 class="popularHeading">Cocacola</h2>
+		<p class="popularityWord"><b>Popularity: 934 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+		<p class="popularPriceTag"><b>Rs.244.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+	<div class="popularProductFiveDuplicate">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/s-l400.jpg">
+		<h2 class="popularHeading">Tikiri Mari</h2>
+		<p class="popularityWord"><b>Popularity: 3,934 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+		<p class="popularPriceTag"><b>Rs.67.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+	<div class="popularProductSixDuplicate">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/orrangr2.jpg">
+		<h2 class="popularHeading">Orange 1Kg</h2>
+		<p class="popularityWord"><b>Popularity: 8,934 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+		<p class="popularPriceTag"><b>Rs.655.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+
+	<div class="popularProductNewZero">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/pepsi.jpg">
+		<h2 class="popularHeading">Pepsi</h2>
+		<p class="popularityWord"><b>Popularity: 10,534 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+		<p class="popularPriceTag"><b>Rs.80.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+	<div class="popularProductNewZeroOne">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="popularImage" src="images/lemonade.jpg">
+		<h2 class="popularHeading">Lemonade</h2>
+		<p class="popularityWord"><b>Popularity: 1,534 ratings</b></p>
+		<p class="popularityStar">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+		<p class="popularPriceTag"><b>Rs.285.00</b></p>
+		<p class="popularAddToCart">Add</p>
+		<p class="popularViewMore">View More</p>
+	</div>
+
+	</div>
+
+	<div class="popularSlider">
+
+		<div class="popularProductFive">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/s-l400.jpg">
+			<h2 class="popularHeading">TikiriMari</h2>
+			<p class="popularityWord"><b>Popularity: 3,934 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+			<p class="popularPriceTag"><b>Rs.67.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+
+		<div class="popularProductSix">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/orrangr2.jpg">
+			<h2 class="popularHeading">Orange 1Kg</h2>
+			<p class="popularityWord"><b>Popularity: 8,934 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+			<p class="popularPriceTag"><b>Rs.655.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+
+		<div class="popularProductNewOne">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/appleg.jpg">
+			<h2 class="popularHeading">Green Apple</h2>
+			<p class="popularityWord"><b>Popularity: 6,534 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+			<p class="popularPriceTag"><b>Rs.70.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+
+		<div class="popularProductNewTwo">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/chicken.jpg">
+			<h2 class="popularHeading">Chicken 1kg</h2>
+			<p class="popularityWord"><b>Popularity: 934 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+			<p class="popularPriceTag"><b>Rs.155.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+		<div class="popularProductNewThree">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/fav_1.jpg">
+			<h2 class="popularHeading">Orange Juise</h2>
+			<p class="popularityWord"><b>Popularity: 3,534 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+			<p class="popularPriceTag"><b>Rs.220.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+
+		<div class="popularProductNewFour">
+			<a id="favIcon" class="fa fa-heart favIcon"></a>
+			<img class="popularImage" src="images/ginger.jpg">
+			<h2 class="popularHeading">Ginger Juise</h2>
+			<p class="popularityWord"><b>Popularity: 5,934 ratings</b></p>
+			<p class="popularityStar">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+			<p class="popularPriceTag"><b>Rs.55.00</b></p>
+			<p class="popularAddToCart">Add</p>
+			<p class="popularViewMore">View More</p>
+		</div>
+
+
+
+		</div>
+
+
+    <a class="prevPopularProducts" onclick="plusSlidesOnPopular(-1)">&#10094;</a>
+    <a class="nextPopularProducts" onclick="plusSlidesOnPopular(1)">&#10095;</a>
+	<br>
+	<div class="slideDotsPopularProducts"style="text-align:center">
+	  <span class="dotPopularProducts" onclick="currentSlideOnPopular(1)"></span>
+	  <span class="dotPopularProducts" onclick="currentSlideOnPopular(2)"></span>
+	  <span class="dotPopularProducts" onclick="currentSlideOnPopular(3)"></span>
+	</div>
+
+
+
+
+<!-- New Arrvals Part Begins HERE -->
+
+
+<div data-role="none" class="arrivalsSlider">
+
+<div class="arrivalsProduct">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="arrivalsImage" src="images/durian.jpg">
+	<h2 class="arrivalsHeading">Durian</h2>
+	<p class="arrivalsDescription"><b>High Protein Fruit grown on sri...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.350.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductTwo">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="arrivalsImage" src="images/maggie.jpg">
+	<h2 class="arrivalsHeading">Maggie Veg Pack</h2>
+	<p class="arrivalsDescription"><b>New chicken flavoured vegtable magggie...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.699.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductThreeDuplicate">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="arrivalsImage" src="images/maggiesmall.jpg">
+	<h2 class="arrivalsHeading">Maggie Small</h2>
+	<p class="arrivalsDescription"><b>Fish flavoured new maggie from...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.50.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductFourDuplicate">
+	<a id="favIcon" class="fa fa-heart favIcon"></a>
+	<img class="arrivalsImage" src="images/onion.jpg">
+	<h2 class="arrivalsHeading">Onion 1kg</h2>
+	<p class="arrivalsDescription"><b>Sri lankan best kitchen vege...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.90.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+</div>
+
+<div data-role="none" class="arrivalsSlider">
+
+	<div class="arrivalsProductThree">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/maggiesmall.jpg">
+		<h2 class="arrivalsHeading">Maggie Small</h2>
+		<p class="arrivalsDescription"><b>Fish flavoured new maggie from...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.50.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductFour">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/onion.jpg">
+		<h2 class="arrivalsHeading">Onion 1kg</h2>
+		<p class="arrivalsDescription"><b>Sri lankan best kitchen vege...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.90.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductFiveDuplicate">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/mango.jpg">
+		<h2 class="arrivalsHeading">Mango</h2>
+		<p class="arrivalsDescription"><b>Frshly taken from estate by farmers hand...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.60.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductSixDuplicate">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/tea.webp">
+		<h2 class="arrivalsHeading">Tea Leaves</h2>
+		<p class="arrivalsDescription"><b>Start Morinig with drinking this special...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.40.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+
+	<div class="arrivalsProductNewZero">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/Ariya-Red-Rice.jpg">
+		<h2 class="arrivalsHeading">Red Rice Packet</h2>
+		<p class="arrivalsDescription"><b>Ariya's qulity red rice with high...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.220.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductNewZeroOne">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/Japanese-Pumpkin.jpg">
+		<h2 class="arrivalsHeading">Pumpkin</h2>
+		<p class="arrivalsDescription"><b>Ourala's new pumpkin with free chillies...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.409.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+</div>
+
+<div data-role="none" class="arrivalsSlider">
+
+	<div class="arrivalsProductFive">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/mango.jpg">
+		<h2 class="arrivalsHeading">Mango</h2>
+		<p class="arrivalsDescription"><b>Frshly taken from estate by...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.60.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductSix">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/tea.webp">
+		<h2 class="arrivalsHeading">Tea Leaves</h2>
+		<p class="arrivalsDescription"><b>Start Morinig with drinking this special...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.40.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductNewOne">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/pota.webp">
+		<h2 class="arrivalsHeading">Potato Chips</h2>
+		<p class="arrivalsDescription"><b>Potato crusty chips with red hot chilli...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.550.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductNewTwo">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/Pic13298.webp">
+		<h2 class="arrivalsHeading">Ice Cream Pack</h2>
+		<p class="arrivalsDescription"><b>Dried grapes filled with  apple flavoured...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.321.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+
+	<div class="arrivalsProductNewThree">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/stra.jpg">
+		<h2 class="arrivalsHeading">Strawberry Strings</h2>
+		<p class="arrivalsDescription"><b>Strawberry slavoured strings from...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.19.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+	<div class="arrivalsProductNewFour">
+		<a id="favIcon" class="fa fa-heart favIcon"></a>
+		<img class="arrivalsImage" src="images/sama.jpeg">
+		<h2 class="arrivalsHeading">Samaposha</h2>
+		<p class="arrivalsDescription"><b>Children's Favourite with new flavoured...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.69.00</b></p>
+		<p class="arrivalsAddToCart">Add</p>
+		<p class="arrivalsViewMore">View More</p>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+    <a class="prevArrivalsProducts" onclick="plusSlidesOnArrivals(-1)" >&#10094;</a>
+    <a class="nextArrivalsProducts" onclick="plusSlidesOnArrivals(1)">&#10095;</a>
+	<br>
+	<div class="slideDotsArrivalsProducts"style="text-align:center">
+	  <span class="dotArrivalsProducts" onclick="currentSlideOnArrivals(1)"></span>
+	  <span class="dotArrivalsProducts" onclick="currentSlideOnArrivals(2)"></span>
+	  <span class="dotArrivalsProducts" onclick="currentSlideOnArrivals(3)"></span>
+	</div>
+
+
+
+
+
+
+
+
+<div data-role="none" class = "videosPanel">
+	<h2 class="videoTittle">Walkthrough inside the <b>Treemart</b></h2>
+
+	<video class="videoOne"  controls contain>
+		<source  src="videos/VideoOne.mp4" type="video/mp4">
+</div>
+
+
+  <div data-role="none"  onclick="topFunction()" id="goToTopButton" class="goToTopButton">
+	  <img class="goToUpImage" src="images/goToUp.png">
+	  <p class="goToUpWord"><b>TOP</b></p>
+  </div>
+
+
+</div>
+
+ <div data-role="none" class="collapseFooter" >
+<button class="collapsible"><b>Our Social Network</b></button>
+<div class="content"><br>
+	<img class="socialNetworkIcon" src="images/facebookIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/instergramIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/linkedinIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/twitterIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/yelpIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/youtubeIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/pinterestIcon.png">	&nbsp;
+
+    <img class="socialNetworkIcon" src="images/whatsappIcon.png">	&nbsp;
+</div>
+
+
+<button data-role="none" class="collapsible"><b>Locations & Contact Details</b></button>
+<div class="content">
+	<div class="contactInfo">
+	<h2><img class="smallIconContactDetails" src="images/office.png"> Head Office</h2>
+	<p ><pre>
+		Treemart HO
+		No. 571,
+		High Level road,
+		Delkanda,
+		Nugegoda</pre>
+</div>
+<hr>
+
+<div data-role="none" class="contactInfo">
+	<h2 ><img src="images/contact.png">&nbsp;Contact Number</h2>
+	<p><pre>
+		Call Now: 0115128128 / 0770128128
+		Fax Now: 0115128128 / 0110128128</pre>
+	</p>
+</div>
+<hr>
+
+	<div class="contactInfo">
+	<h2 ><img src="images/email.png">&nbsp;Email</h2>
+	<p> <pre>
+		Customer Inqueries:
+		Treemart.CusCare@tm.lk
+
+		Apply for an Opportunity:
+		Treemart.Careers@tm.lk
+	</pre>
+	</p>
+</div>
+</div>
+
+<button data-role="none" class="collapsible"><b>&nbsp;Additional Information</b></button>
+<div class="content">
+	<div class="contactInfo">
+	<h2 >We offer</h2>
+	<img class="financekIcon"src="images/master.png">
+	<img class="financekIcon"src="images/stripe.png">
+	<img class="financekIcon"src="images/visa.png">
+	<img class="financekIcon"src="images/paypal.png">
+	<br>
+<hr>
+    <h2 >System Feedback & Regulations</h2>
+	<p> FAQ<img class="linkIcon"src="images/link.png"></p>
+	<p> TERMS & CONDITIONS<img class="linkIcon"src="images/link.png"></p>
+	<p> PRIVACY POLICY<img class="linkIcon"src="images/link.png"> </p>
+	<p>Partners<img class="linkIcon"src="images/link.png"></p>
+	<a href="../Project/Feedback.html"><p>Feedback<img class="linkIcon"src="images/link.png"></p></a>
+	<p>Site Map<img class="linkIcon"src="images/link.png"></p>
+<br>
+</div>
+</div>
+<div class="subscribeBar">
+
+</div>
+
+<p class="newslaterWord">Newsletter Subscribe </p>
+<img class="newsletterLine" src="images/newsletterLine.png">
+<p class="newsInfo">Subscribe with Treemart to be inspired with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+<input class="subButton" placeholder="Type your email in here..."></input>
+<p class="subWord"> Subscribe Now</p>
+
+<footer class="devInfo">
+<p class="copyrightInfo">Copyright © 2002- 2019 . M M (Pvt) Ltd.</p>
+</footer>
+<script src="Jquery/chromeItems.js"></script>
+<script src="Jquery/home.js"></script>
+
+</body>
+
+</html>

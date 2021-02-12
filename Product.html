@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Treemart | Online Shopping in Sri Lanka</title>
+
+<link rel="icon" href="../Project/images/logog.png" />
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<meta name="description" content="Shopping for groceries is much easier with Treemart Online; Sri Lanka’s premier supermarket is the one stop shop for all your grocery &amp; household needs." />
+<meta name="keywords" content="grocery shopping online, online shopping sri lanka, grocery &amp; retail, keells super online, Treemart delivery service, office delivery, home delivery, sri lanka" />
+
+<!--link rel="stylesheet" type="text/css" href="css\jquery.mobile-1.4.5.min.css"-->
+<link rel="stylesheet" href="../Project/css/product.css">
+<link rel="stylesheet" href="../Project/css/chromeItems.css">
+<!--link rel="stylesheet" type="text/css" href="css\jquery.mobile-1.4.5.min.css"-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="Jquery/jquery-3.4.1.min.js"></script>
+<!--<script src="Jquery/jquery-1.11.3.min.js"></script>-->
+<!--script src="Jquery\jquery.mobile-1.4.5.min.js"></!--script-->
+</head>
+
+<body >
+
+
+
+	<div data-role="none" id="shortSlider">
+
+
+		<div data-role="none" class="tag-slider">
+			<div data-role="none" class="marquee down" id="marquee-down-text">
+
+
+				<div data-role="none" class="sliding-words-wrapper">
+				  <div class="sliding-words">
+				<span> Buy 2 coca cola & Get 1 FREE </span>
+				<span> Fresh Fruits & Vegies - Try Now </span>
+				<span> Vouchers for expenses above 5K! </span>
+				  </div>
+				</div>
+
+
+
+
+			</div>
+		  </div>
+
+	</div>
+
+<div data-role="none" id="myNav" class="overlay">
+	<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+	<img class="logoPanel" src= "images/logoPanel.png"></img>
+	<img class="logo" src= "images/logo.png"></img>
+	<img class="menueLine" src= "images/menueLine.png"></img>
+	<p class=logoTittle>Treemart</p>
+	<div class="greenLine"></div>
+
+	<div data-role="none" class="overlay-content">
+
+		<div class="accountSection">
+			<a  href="../Project/Login.html">Login</a>
+	  <br>
+			<a  href="../Project/SignUp.html">Signup</a></div>
+	  <br><br>
+			<a  href="../Project/Home.html">Home</a>
+			<br>
+			<a  href="../Project/Favourites.html">Favorites</a>
+			<br>
+			<a  href="#">Shopping Cart</a>
+			<br>
+			<a  href="../Project/Competition.html">Competition</a>
+	  <br><br>
+			<a  href="../Project/StoreLocate.html">Store Locator</a>
+			<br>
+			<a  href="../Project/AboutUs.html">About Us</a>
+			<br>
+			<a  href="../Project/Feedback.html">System Feedback</a>
+			<br>
+			<a  href="#">Help</a>
+			<br>
+		  </div>
+  </div>
+
+
+
+<div data-role="none" class="navigationPanel">
+
+
+
+<img class="logoPanelNavBar" src= "images/logoPanelNavBar.png">
+<img class="logoNavBar" src= "images/logoNavBar.png">
+<p class=logoTittleNavBar>Treemart</p>
+<img class="QRScanLogo" src= "images/QRScan.png">
+<p class=seperatorOne>|</p>
+<img class="accountIcon" src= "images/accountIcon.png">
+<p class=seperatorTwo>|</p>
+
+<img class="loginIcon" src= "images/login.png">
+<p class=loginWordIcon>Login</p>
+<img class="signUpIcon" src= "images/signUpIcon.png">
+<p class=signUpWordIcon>Sign Up</p>
+<img class="QRScanBig" src= "images/QRScanBig.png">
+<p class=QRScanBigWord>QR Scan</p>
+<img class="cartGreen" src= "images/cartGreen.png">
+<p class=cartGreenWord>Cart</p>
+<img class="cartIcon" src= "images/cartIcon.png">
+<p class=QRScanTittle>QR Scan</p>
+<p class=account>Account</p>
+<p class=cart>Cart</p>
+<p class=horizontalLineSeperator src="images/horizontalSepratorLine.png"></p>
+<input type="text" class="searchBar" style="padding-left:10px;" id="searchbox" placeholder=" Enter your search item(s) here...">
+<p class="categories" style="padding-left:5px;" onclick="openNav2()">&#9660;Categories</p>
+
+<span class="hamburgerMenuIcon" style="cursor:pointer" onclick="openNav()">&#9776; </span>
+<img class="searchButton" src = "images/searchIcon.png" >
+</div>
+
+
+<div data-role="none" id="myNav2" class="overlay2">
+	<p href="javascript:void(0)" class="closebtn2" onclick="closeNav2()"><span style="color: #333333;">&times;</span></p>
+	<img class="logoPanel2" src= "images/logoPanel.png"></img>
+	<img class="logo2" src= "images/logo.png"></img>
+	<img class="menueLine2" src= "images/muneLineBlack.png"></img>
+	<p class="logoTittle2">Treemart</p>
+	<div class="greenLine2"></div>
+
+	<div class="overlay-content2">
+
+
+	  <a style="text-align:left;" href="#">Frozen Foods  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Pharmacy <span style="float:right;">&#9660;</span> </a>
+      <br>
+	  <a style="text-align:left;" href="#">Grocery <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Household  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Liqour  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Beverages  <span style="float:right;">&#9660;</span> </a>
+     <br>
+	 <a style="text-align:left;" href="#">Homeware  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Vegetables  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Meat  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Milk Powder  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Chocolates  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Soft Drinks  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Fruits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Biscuits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	</div>
+  </div>
+
+
+
+
+
+<div data-role="none" class="mainProductPanel">
+	<div class="productPanel">
+		<div class="pruductHeading">
+<h1>Anchor Yoghurt</h1>
+<h2>Desserts / Yogurts / Set Yoghurt...</h2>
+		</div>
+		<div id="favIcon" class="fa fa-heart"></div>
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+
+			  <img src="images/yogurt.jpg" >
+
+			</div>
+
+			<div class="mySlides fade">
+
+			  <img src="images/60583.jpg" >
+
+			</div>
+
+			<div class="mySlides fade">
+
+			  <img src="images/Pic4204.webp">
+
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<br>
+
+			</div>
+			<div class="slideDots"style="text-align:center">
+				<img class="dot" src="images/yogurt.jpg" onclick="currentSlide(1)">
+				<img class="dot" src="images/60583.jpg" onclick="currentSlide(2)">
+				<img class="dot" src="images/Pic4204.webp" onclick="currentSlide(3)">
+
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+
+			</div>
+<p class="popularity">Popularity</p>
+<p class="totalRatings">(1,234 Ratings)</p>
+<p class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+<p class="priceLabel">Price</p>
+<p class="treemartoffer">Treemart Promotion Active</p>
+<p class="wasPrice"><strike>(was Rs.55.00)</strike></p>
+<p class="nowPrice">Now Rs.45.00</p>
+<p class="descriptionLabel">Description</p>
+<div class="description">
+<p class="descriptionWords">
+Anchor Drinking Yoghurt is made from locally-sourced fresh milk. It is low in fat and has only 7% added sugar content. </p>
+</div>
+<p class="quntityLabel">Quantity</p>
+<select class="quntityType">
+	<option value="volvo">kilogram/litre</option>
+	<option value="saab">Unit</option>
+  </select>
+  <input type="text" class="quntityInput">
+  <p class="proceedButton">Add to Cart</p>
+  <a href="Home.html" style =" text-decoration: none;"><p class="goBack">Go Back</p></a>
+  <p class="favWord">Add to Favorites </p>
+  <hr>
+  <div class="commentsHeading">Comments</div>
+
+  <div class="showCommentsButton">
+	<p class="showCommentsWord">View Comments Area</p>
+</div>
+
+
+  <div class="moreCommentsButton">
+	  <p class="moreCommentsWord">Close Comments Area</p>
+  </div>
+
+<div data-role="none" class="comments" >
+<a class="user">User A</a><div class="PostedStars" style="color:#bfbf00">Rated: &#9733;&#9733;&#9733;&#9733;&#9734;</div><p class="commented"><span class="commentWord"> Great!!! Satisfied... </span></p>
+
+<a class="user">User B</a><div class="PostedStars" style="color:#bfbf00">Rated: &#9733;&#9733;&#9733;&#9734;&#9734;</div><p class="commented"><span class="commentWord"> Wow,Best product..</span></p>
+
+<a class="user">User C </a><div class="PostedStars" style="color:#bfbf00">Rated: &#9733;&#9733;&#9734;&#9734;&#9734;</div><p class="commented"><span class="commentWord">I Recommend you to buy this prodct.</span></p>
+
+<div class="postCom">
+<a class="userYou">You </a><br><div class="PostedStarsYou" style="color:#bfbf00">Rated: &#9733;&#9733;&#9733;&#9733;&#9733;</div><br><p class="posted"><span class="postWord">Best Branded Product</span>	</p>
+
+<form id="comment-form">
+<p><textarea type="text" id="comment-input" placeholder="Enter you comment"></textarea>
+
+	<button type="submit" class="comValuePost">Post</button></p>
+
+	<ul id="comment-input" class="list-inline rating-list"> Enter your rating:
+		<li><span class="fa fa-star yellow"></span></li>
+		<li><span class="fa fa-star yellow"></span></li>
+		<li><span class="fa fa-star yellow"></span></li>
+		<li><span class="fa fa-star yellow"></span></li>
+		<li><span class="fa fa-star gray"></span></li>
+	</ul>
+
+</form>
+
+<span style="background-color: white;" id="comment-stream" class="comment-stream" >
+
+</span>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+<div data-role="none" onclick="topFunction()" id="goToTopButton" class="goToTopButton">
+	<img class="goToUpImage" src="images/goToUp.png">
+	<p class="goToUpWord"><b>TOP</b></p>
+</div>
+
+ <div class="collapseFooter" >
+<button class="collapsible"><b>Our Social Network</b></button>
+<div class="content"><br>
+	<img class="socialNetworkIcon" src="images/facebookIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/instergramIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/linkedinIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/twitterIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/yelpIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/youtubeIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/pinterestIcon.png">	&nbsp;
+
+    <img class="socialNetworkIcon" src="images/whatsappIcon.png">	&nbsp;
+</div>
+
+
+<button class="collapsible"><b>Locations & Contact Details</b></button>
+<div class="content">
+	<div class="contactInfo">
+	<h2><img  src="images/office.png"> Head Office</h2>
+	<p ><pre>
+		Treemart HO
+		No. 571,
+		High Level road,
+		Delkanda,
+		Nugegoda</pre>
+</div>
+<hr>
+
+<div class="contactInfo">
+	<h2 ><img src="images/contact.png">&nbsp;Contact Number</h2>
+	<p><pre>
+		Call Now: 0115128128 / 0770128128
+		Fax Now: 0115128128 / 0110128128</pre>
+	</p>
+</div>
+<hr>
+
+	<div class="contactInfo">
+	<h2 ><img src="images/email.png">&nbsp;Email</h2>
+	<p> <pre>
+		Customer Inqueries:
+		Treemart.CusCare@tm.lk
+
+		Apply for an Opportunity:
+		Treemart.Careers@tm.lk
+	</pre>
+	</p>
+</div>
+</div>
+
+<button data-role="none" class="collapsible"><b>&nbsp;Additional Information</b></button>
+<div class="content">
+	<div class="additionalInfo">
+	<h2 >We offer</h2>
+	<img class="financekIcon"src="images/master.png">
+	<img class="financekIcon"src="images/stripe.png">
+	<img class="financekIcon"src="images/visa.png">
+	<img class="financekIcon"src="images/paypal.png">
+	<br>
+<hr><div class="tempHeading">
+    <h2 >System Feedback & Regulations</h2>
+	<p> FAQ<img class="linkIcon"src="images/link.png"></p>
+	<p> TERMS & CONDITIONS<img class="linkIcon"src="images/link.png"></p>
+	<p> PRIVACY POLICY<img class="linkIcon"src="images/link.png"> </p>
+	<p>Partners<img class="linkIcon"src="images/link.png"></p>
+	<p>Feedback<img class="linkIcon"src="images/link.png"></p>
+	<p>Site Map<img class="linkIcon"src="images/link.png"></p>
+	</div>
+<br>
+</div>
+</div>
+<div class="subscribeBar">
+
+</div>
+
+<p class="newslaterWord">Newsletter Subscribe </p>
+<img class="newsletterLine" src="images/newsletterLine.png">
+<p class="newsInfo">Subscribe with Treemart to be inspired with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+<input class="subButton" placeholder="Type your email in here..."></input>
+<p class="subWord"> Subscribe Now</p>
+
+<footer class="devInfo">
+<p class="copyrightInfo">Copyright © 2002- 2019 . M M (Pvt) Ltd.</p>
+</footer>
+
+<script src="Jquery/product.js"></script>
+<script src="Jquery/chromeItems.js"></script>
+</body>
+
+</html>

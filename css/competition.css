@@ -1,0 +1,805 @@
+
+@media screen and (min-device-width : 375px) and  (max-device-width : 667px) {
+
+  .instrcutionHeading{
+    width: 24vw;
+    height: 6.2vw;
+    top:0vw;
+    padding:  0vw 1.06vw 0vw 2.13vw;
+    border: 1.06vw solid #ffffff;
+    background-color: #ffffff;
+    color: #333333 ;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    font-weight: normal;
+    margin-top: 2vw;
+    margin-left:2vw;
+    font-Size:4.8vw;
+    border-radius: 0vw 8vw 8vw 8vw; 
+  }
+
+
+.mainPanel{
+  width:100%;
+  height:450vw;
+  top:45vw;
+  margin-bottom: 48vw;
+  left:0.2vw;
+  right:0.2vw;
+  
+  border-radius: 2.6vw;
+  border: 0.26vw solid #d7d7d7;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.instructionDesc{
+  width: 86.1vw;
+  height: 83vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 13vw;
+  margin-left:2vw;
+  font-Size:3.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.instrViewable li{
+  margin-left:3vw;
+  width:74vw;
+  top:0vw;
+}
+
+.viewMore{
+  width:30vw;
+  height: 8vw;
+  border-radius: 8vw 8vw 8vw 8vw;
+  box-shadow: 5px 5px 8px 5px rgb(187, 184, 184);
+  top:0vw;
+  margin-left:26vw;
+  text-align: center;
+  margin-top:5.5vw;
+  padding-top:3vw;
+  font-Size:3.9vw;
+}
+.instrNonViewable{
+  width: 82vw;
+  height: 194vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 87vw;
+  margin-left:-2vw;
+  font-Size:3.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+  top:0vw;
+ 
+}
+
+.gameNameHeading{
+  width: 42vw;
+  height: 6.2vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 103vw;
+  margin-left:2vw;
+  font-Size:4.8vw;
+  border-radius: 0vw 8vw 8vw 8vw; 
+  
+}
+#spinM{
+  width:18vw;
+  height:8vw;
+  top:0vw;
+  margin-top:5vw;
+  margin-left:33vw;
+  
+  color: #ffffff;
+  border-radius: 3vw;
+  background-color: #61bc47;
+  border: 0.26px solid #61bc47;
+padding-top: 3vw;
+padding-left:3vw;
+}
+#canvas{
+  width:92vw;
+  height:92vw;
+  top:0vw;
+  margin-top:-9vw;
+  margin-left:-4vw
+}
+.gamePanel{
+  width: 84.5vw;
+  height: 130vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 114vw;
+  margin-left:2vw;
+  font-Size:3.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.leaderboardHeading{
+  width: 25vw;
+  height: 6.2vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 251vw;
+  margin-left:2vw;
+  font-Size:4.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.leaderboardPanel{
+  width: 84.5vw;
+  height: 180vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 262vw;
+  margin-left:2vw;
+  font-Size:3.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+
+.filterSelect{
+  width: 35vw;
+  height:10vw;
+  top:0vw;
+  margin-top: 2vw;
+  margin-left:1vw;
+  font-Size:3.8vw;
+  color:black;
+  background-color: rgb(202, 202, 202);
+  text-align: center;
+}
+.filterButton{
+  width: 35vw;
+  height:10vw;
+  top:0vw;
+  margin-top: -10.5vw;
+  margin-left:46.5vw;
+  font-Size:3.8vw;
+  color:rgb(107, 107, 107);
+  border: 0.26vw solid rgb(107, 107, 107);
+  text-align: center;
+  padding-top: 1vw;
+  border-radius:4vw;
+}
+
+.leaderboardTable{
+  top:0vw;
+  margin-top:5vw;
+  overflow:scroll 
+}
+
+.collapseContents{
+  top:0vw;
+  margin-top:20vw;
+}
+.goBackButton{
+  width: 22vw;
+  height: 5.33vw;
+  margin-top:19vw;
+  border-radius: 0vw 2.6vw 2.6vw 0vw;
+  border: 0.26vw solid #555555;
+  background-color: #555555;
+  position: absolute;
+  left:0;
+  top:20vw;
+  
+}
+.goBackButton img{
+  transform: rotate(270deg);
+  margin-left:2vw;
+  margin-top:0.4vw;
+  width:3.5vw;
+  height:3.5vw;
+}
+.goBackWord{
+  margin-top:-4.3vw;
+  margin-left:9vw;
+  font-size: 3.2vw;
+  font-family:'Source Sans Pro';
+  color:white;
+}
+table {
+  width:100%;
+  
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border:1vw solid white;
+  text-align: center;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+.tableContents{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:  rgba(170, 169, 173, 0.5);
+}
+.tableContents img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+
+.tableContents0{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:   rgba(255, 215, 0, 0.5);
+}
+.tableContents0 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents0 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents0 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+
+.tableContents2{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(205, 127, 50, 0.5);
+}
+.tableContents2 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents2 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents2 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+.tableContents3{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(97, 188, 71, 0.5);
+}
+.tableContents3 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents3 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents3 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+.tableContents4{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(97, 188, 71, 0.5);
+}
+.tableContents4 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents4 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents4 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+.additionalInfo h2{
+  color:white;
+  text-align: center;
+}
+.tempHeading{
+  color:white;
+  text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width : 768px) and  (max-device-width : 1024px) {
+
+  .instrcutionHeading{
+    width: 20vw;
+    height: 6vw;
+    top:0vw;
+    padding:  0vw 1.06vw 0vw 2.13vw;
+    border: 1.06vw solid #ffffff;
+    background-color: #ffffff;
+    color: #333333 ;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    font-weight: normal;
+    margin-top: 2vw;
+    margin-left:2vw;
+    font-Size:4vw;
+    border-radius: 0vw 8vw 8vw 8vw; 
+  }
+
+
+.mainPanel{
+  width:100%;
+  height:380vw;
+  top:26vw;
+  margin-bottom: 34vw;
+  left:0.2vw;
+  right:0.2vw;
+  
+  border-radius: 2.6vw;
+  border: 0.26vw solid #d7d7d7;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.instructionDesc{
+  width: 86.1vw;
+  height: 58vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 13vw;
+  margin-left:2vw;
+  font-Size:3vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.instrViewable li{
+  margin-left:3vw;
+  width:74vw;
+  top:0vw;
+}
+
+.viewMore{
+  width:22vw;
+  height: 5vw;
+  border-radius: 8vw 8vw 8vw 8vw;
+  box-shadow: 5px 5px 8px 5px rgb(187, 184, 184);
+  top:0vw;
+  margin-left:28vw;
+  text-align: center;
+  margin-top:3vw;
+  padding-top:2vw;
+  font-Size:3vw;
+}
+.instrNonViewable{
+  width: 86.1vw;
+  height: 140vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 65vw;
+  margin-left:-3vw;
+  font-Size:3vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+  top:0vw;
+ 
+}
+
+.gameNameHeading{
+  width: 37vw;
+  height: 5.7vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 77vw;
+  margin-left:2vw;
+  font-Size:4vw;
+  border-radius: 0vw 8vw 8vw 8vw; 
+  
+}
+#spinM{
+  width:15vw;
+  height:8vw;
+  top:0vw;
+  margin-top:5vw;
+  margin-left:33vw;
+  
+  color: #ffffff;
+  border-radius: 3vw;
+  background-color: #61bc47;
+  border: 0.26px solid #61bc47;
+padding-top: 3.5vw;
+padding-left:3vw;
+}
+#canvas{
+  width:82vw;
+  height:82vw;
+  top:0vw;
+  margin-top:-6vw;
+  margin-left:0vw;
+  
+}
+.gamePanel{
+  width: 84.5vw;
+  height: 120vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 88vw;
+  margin-left:2vw;
+  font-Size:3vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.leaderboardHeading{
+  width: 25vw;
+  height: 6.2vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 215vw;
+  margin-left:2vw;
+  font-Size:4.8vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+.leaderboardPanel{
+  width: 84.5vw;
+  height: 145vw;
+  top:0vw;
+  padding:  0vw 1.06vw 0vw 2.13vw;
+  border: 1.06vw solid #ffffff;
+  background-color: #ffffff;
+  color: #333333 ;
+  font-family: 'Source Sans Pro';
+  position: absolute;
+  font-weight: normal;
+  margin-top: 227vw;
+  margin-left:2vw;
+  font-Size:3vw;
+  border-radius: 0vw 8vw 8vw 8vw;
+}
+
+.filterSelect{
+  width: 35vw;
+  height:10vw;
+  top:0vw;
+  margin-top: 2vw;
+  margin-left:1vw;
+  font-Size:2.8vw;
+  color:black;
+  background-color: rgb(202, 202, 202);
+  text-align: center;
+}
+.filterButton{
+  width: 35vw;
+  height:9vw;
+  top:0vw;
+  margin-top: -10.5vw;
+  margin-left:46.5vw;
+  font-Size:3.8vw;
+  color:rgb(107, 107, 107);
+  border: 0.26vw solid rgb(107, 107, 107);
+  text-align: center;
+  padding-top: 1vw;
+  border-radius:4vw;
+}
+
+.leaderboardTable{
+  top:0vw;
+  margin-top:5vw;
+  overflow:scroll 
+}
+
+.collapseContents{
+  top:0vw;
+  margin-top:20vw;
+}
+.goBackButton{
+  width: 16vw;
+  height: 3.9vw;
+  margin-top:20vw;
+  border-radius: 0vw 2.6vw 2.6vw 0vw;
+  border: 0.26vw solid #555555;
+  background-color: #555555;
+  position: absolute;
+  left:0;
+  top:0w;
+  
+}
+.goBackButton img{
+  transform: rotate(270deg);
+  margin-left:2vw;
+  margin-top:0.6vw;
+  width:2.5vw;
+  height:2.5vw;
+}
+.goBackWord{
+  margin-top:-2.5vw;
+  margin-left:9vw;
+  font-size: 1.9vw;
+  font-family:'Source Sans Pro';
+  color:white;
+}
+table {
+  width:100%;
+  
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border:1vw solid white;
+  text-align: center;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+.tableContents{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:  rgba(170, 169, 173, 0.5);
+}
+.tableContents img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+
+.tableContents0{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:   rgba(255, 215, 0, 0.5);
+}
+.tableContents0 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents0 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents0 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+
+.tableContents2{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(205, 127, 50, 0.5);
+}
+.tableContents2 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents2 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents2 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+.tableContents3{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(97, 188, 71, 0.5);
+}
+.tableContents3 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents3 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents3 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+.tableContents4{
+  padding-left:3vw;
+  width:81.4vw;
+  height:55vw;
+  color:black;
+  background-color:    rgba(97, 188, 71, 0.5);
+}
+.tableContents4 img{
+  width:22vw;
+  height:22vw;
+  margin-top:-30vw;
+  border-radius:5vw
+  
+}
+.tableContents4 h1{
+  margin-left:30vw;
+  font-family:'Source Sans Pro';
+  font-size: 10vw;
+}
+.tableContents4 p{
+  font-size: 5vw;
+  padding-left:6vw;
+  margin-top: 0vw;
+}
+}

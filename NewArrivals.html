@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Treemart | Online Shopping in Sri Lanka</title>
+
+<link rel="icon" href="../Project/images/logog.png" />
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<meta name="description" content="Shopping for groceries is much easier with Treemart Online; Sri Lanka’s premier supermarket is the one stop shop for all your grocery &amp; household needs." />
+<meta name="keywords" content="grocery shopping online, online shopping sri lanka, grocery &amp; retail, keells super online, Treemart delivery service, office delivery, home delivery, sri lanka" />
+
+
+<link rel="stylesheet" href="../Project/css/newArrivals.css">
+<link rel="stylesheet" href="../Project/css/chromeItems.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--link rel="stylesheet" type="text/css" href="css\jquery.mobile-1.4.5.min.css"-->
+
+
+
+<script src="Jquery/jquery-3.4.1.min.js"></script>
+<!--<script src="Jquery/jquery-1.11.3.min.js"></script>-->
+<!--script src="Jquery\jquery.mobile-1.4.5.min.js"></!--script-->
+</head>
+
+<body >
+
+	
+
+	<div data-role="none" id="shortSlider"> 
+	
+		
+		<div data-role="none" class="tag-slider">
+			<div data-role="none" class="marquee down" id="marquee-down-text">
+			  
+			  
+				<div data-role="none" class="sliding-words-wrapper">
+				  <div class="sliding-words">
+				<span> Buy 2 coca cola & Get 1 FREE </span>
+				<span> Fresh Fruits & Vegies - Try Now </span>
+				<span> Vouchers for expenses above 5K! </span>
+				  </div>
+				</div>
+				
+
+				
+
+			</div>
+		  </div>
+		  
+	</div>
+
+<div data-role="none" id="myNav" class="overlay">
+	<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+	<img class="logoPanel" src= "images/logoPanel.png"></img>
+	<img class="logo" src= "images/logo.png"></img>
+	<img class="menueLine" src= "images/menueLine.png"></img>
+	<p class=logoTittle>Treemart</p>
+	<div class="greenLine"></div>
+	
+	<div data-role="none" class="overlay-content">
+		
+		<div class="accountSection">
+			<a  href="../Project/Login.html">Login</a>
+	  <br>
+			<a  href="../Project/SignUp.html">Signup</a></div>
+	  <br><br>
+			<a  href="../Project/Home.html">Home</a>
+			<br>
+			<a  href="../Project/Favourites.html">Favorites</a>
+			<br>
+			<a  href="#">Shopping Cart</a>
+			<br>
+			<a  href="../Project/Competition.html">Competition</a>
+	  <br><br>
+			<a  href="../Project/StoreLocate.html">Store Locator</a>
+			<br>
+			<a  href="../Project/AboutUs.html">About Us</a>
+			<br>
+			<a  href="../Project/Feedback.html">System Feedback</a>
+			<br>
+			<a  href="#">Help</a>
+			<br>
+		  </div>
+  </div>
+
+
+  
+<div data-role="none" class="navigationPanel">
+
+
+	 
+<img class="logoPanelNavBar" src= "images/logoPanelNavBar.png">	
+<img class="logoNavBar" src= "images/logoNavBar.png">	 
+<p class=logoTittleNavBar>Treemart</p>
+<img class="QRScanLogo" src= "images/QRScan.png">
+<p class=seperatorOne>|</p>
+
+<a href="../Project/SignUp.html"><img class="accountIcon" src= "images/accountIcon.png">
+<p class=seperatorTwo>|</p></a>
+
+
+<a href="../Project/Login.html"><img class="loginIcon" src= "images/login.png">
+
+<p class=loginWordIcon>Login</p></a>
+
+<a href="../Project/SignUp.html"><img class="signUpIcon" src= "images/signUpIcon.png">
+
+<p class=signUpWordIcon>Sign Up</p></a>
+
+<img class="QRScanBig" src= "images/QRScanBig.png">
+<p class=QRScanBigWord>QR Scan</p>
+<img class="cartGreen" src= "images/cartGreen.png">
+<p class=cartGreenWord>Cart</p>
+<img class="cartIcon" src= "images/cartIcon.png">
+<p class=QRScanTittle>QR Scan</p>
+<p class=account>Account</p>
+<p class=cart>Cart</p>
+<p class=horizontalLineSeperator src="images/horizontalSepratorLine.png"></p>
+<input type="text" class="searchBar" style="padding-left:10px;" id="searchbox" placeholder=" Enter your search item(s) here...">
+<p class="categories" style="padding-left:5px;" onclick="openNav2()">&#9660;Categories</p>
+
+<span class="hamburgerMenuIcon" style="cursor:pointer" onclick="openNav()">&#9776; </span>
+<img class="searchButton" src = "images/searchIcon.png" >
+</div>
+
+
+<div data-role="none"  id="myNav2" class="overlay2">
+	<p href="javascript:void(0)" class="closebtn2" onclick="closeNav2()"><span style="color: #333333;">&times;</span></p>
+	<img class="logoPanel2" src= "images/logoPanel.png"></img>
+	<img class="logo2" src= "images/logo.png"></img>
+	<img class="menueLine2" src= "images/muneLineBlack.png"></img>
+	<p class="logoTittle2">Treemart</p>
+	<div class="greenLine2"></div>
+	
+	<div data-role="none" class="overlay-content2">
+		
+	
+	  <a style="text-align:left;" href="#">Frozen Foods  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Pharmacy <span style="float:right;">&#9660;</span> </a>
+      <br>
+	  <a style="text-align:left;" href="#">Grocery <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Household  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Liqour  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Beverages  <span style="float:right;">&#9660;</span> </a>
+     <br>
+	 <a style="text-align:left;" href="#">Homeware  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Vegetables  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Meat  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Milk Powder  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Chocolates  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Soft Drinks  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Fruits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	  <a style="text-align:left;" href="#">Biscuits  <span style="float:right;">&#9660;</span> </a>
+	  <br>
+	</div>
+  </div>
+
+ <a  href="../Project/Home.html"> <div class="goBackButton">
+	<img class="goBackImage" src="images/goBack.png">
+	<p class="goBackWord"><b>BACK</b></p>
+</div></a>
+
+<div data-role="none" class="arrivalsProductsListPanel">
+	<div class="arrivalsHeading">New <b>Arrivals</b></div>
+	<p class="filterButton">
+		  
+		<img  src="images/filter.png" > Apply Filter</p>
+
+	<a class="prev" onclick="plusSlides(-1)">Back</a>
+		<a class="next" onclick="plusSlides(1)">Next</a>
+		
+		<div class="paginationNumber"style="text-align:center">
+			<span class="numberP" onclick="currentSlide(1)">1</span> 
+			<span class="numberP" onclick="currentSlide(2)">2</span> 
+		  </div>
+
+
+</div>
+
+
+<div data-role="none" class="tSlides fade">
+<div class="arrivalsProductOne">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/durian.jpg">
+	<h2 class="arrivalProductsHeading">Durian</h2>
+	<p class="arrivalsDescription"><b>High Protein Fruit grown on sri...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.350.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="viewMorePage"><a href ="../Project/Product.html">View More</a></p>
+</div>
+
+<div class="arrivalsProductTwo">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/maggie.jpg">
+	<h2 class="arrivalProductsHeading">Maggie Veg Pack</h2>
+	<p class="arrivalsDescription"><b>New chicken flavoured vegtable magggie...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.699.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductThree">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/maggiesmall.jpg">
+	<h2 class="arrivalProductsHeading">Maggie Small</h2>
+	<p class="arrivalsDescription"><b>Fish flavoured new maggie from...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.50.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductFour">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/onion.jpg">
+	<h2 class="arrivalProductsHeading">Onion 1kg</h2>
+	<p class="arrivalsDescription"><b>Sri lankan best kitchen vege...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.90.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductFive">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/mango.jpg">
+	<h2 class="arrivalProductsHeading">Mango</h2>
+	<p class="arrivalsDescription"><b>Frshly taken from estate by...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.60.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductSix">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/tea.webp">
+	<h2 class="arrivalProductsHeading">Tea Leaves</h2>
+	<p class="arrivalsDescription"><b>Start Morinig with drinking this special...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.40.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+
+<div class="arrivalsProductSevenExtra">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/Ariya-Red-Rice.jpg">
+	<h2 class="arrivalProductsHeading">Red Rice Packet</h2>
+	<p class="arrivalsDescription"><b>Ariya's qulity red rice with high...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.220.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductEightExtra">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/Japanese-Pumpkin.jpg">
+	<h2 class="arrivalProductsHeading">Pumpkin</h2>
+	<p class="arrivalsDescription"><b>Ourala's new pumpkin with free chillies...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.409.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+</div>
+
+
+<div data-role="none" class="tSlides fade">
+<div class="arrivalsProductSeven">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/pota.webp">
+	<h2 class="arrivalProductsHeading">Potato Chips</h2>
+	<p class="arrivalsDescription"><b>Potato crusty chips with red hot chilli...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.550.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductEight">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/Pic13298.webp">
+	<h2 class="arrivalProductsHeading">Ice Cream Pack</h2>
+	<p class="arrivalsDescription"><b>Dried grapes filled with  apple flavoured...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.321.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductNine">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/stra.jpg">
+		<h2 class="arrivalProductsHeading">Strawberry Strings</h2>
+		<p class="arrivalsDescription"><b>Strawberry slavoured strings from...</b></p>
+		<p class="arrivalsPriceTag"><b>Rs.19.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+
+<div class="arrivalsProductTen">
+	<a id="favIcon" class="fa fa-heart"></a>
+	<img class="arrivalsImage" src="images/sama.jpeg">
+	<h2 class="arrivalProductsHeading">Samaposha</h2>
+	<p class="arrivalsDescription"><b>Children's Favourite with new flavoured...</b></p>
+	<p class="arrivalsPriceTag"><b>Rs.69.00</b></p>
+	<p class="arrivalsAddToCart">Add</p>
+	<p class="arrivalsViewMore">View More</p>
+</div>
+</div>
+
+
+
+
+
+
+<div data-role="none" onclick="topFunction()" id="goToTopButton"class="goToTopButton">
+	<img class="goToUpImage" src="images/goToUp.png">
+	<p class="goToUpWord"><b>TOP</b></p>
+</div>
+
+ <div class="collapseFooter" >
+<button class="collapsible"><b>Our Social Network</b></button>
+<div class="content"><br>
+	<img class="socialNetworkIcon" src="images/facebookIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/instergramIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/linkedinIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/twitterIcon.png">	&nbsp;
+
+	<img class="socialNetworkIcon" src="images/yelpIcon.png">	&nbsp;
+	
+	<img class="socialNetworkIcon" src="images/youtubeIcon.png">	&nbsp;
+		
+	<img class="socialNetworkIcon" src="images/pinterestIcon.png">	&nbsp;
+		
+    <img class="socialNetworkIcon" src="images/whatsappIcon.png">	&nbsp;	
+</div>
+
+
+<button data-role="none" class="collapsible"><b>Locations & Contact Details</b></button>
+<div class="content">
+	<div class="contactInfo">
+	<h2><img  src="images/office.png"> Head Office</h2>
+	<p ><pre>
+		Treemart HO
+		No. 571,	
+		High Level road,		
+		Delkanda,		
+		Nugegoda</pre>
+</div>
+<hr>
+
+<div class="contactInfo">
+	<h2 ><img src="images/contact.png">&nbsp;Contact Number</h2>
+	<p><pre>
+		Call Now: 0115128128 / 0770128128
+		Fax Now: 0115128128 / 0110128128</pre>
+	</p>
+</div>
+<hr>
+
+	<div class="contactInfo">
+	<h2 ><img src="images/email.png">&nbsp;Email</h2>
+	<p> <pre>
+		Customer Inqueries:
+		Treemart.CusCare@tm.lk
+
+		Apply for an Opportunity:
+		Treemart.Careers@tm.lk
+	</pre>
+	</p>
+</div>
+</div>
+
+<button class="collapsible"><b>&nbsp;Additional Information</b></button>
+<div class="content">
+	<div class="additionalInfo">
+	<h2 >We offer</h2>
+	<img class="financekIcon"src="images/master.png">
+	<img class="financekIcon"src="images/stripe.png">
+	<img class="financekIcon"src="images/visa.png">
+	<img class="financekIcon"src="images/paypal.png">
+	<br>
+<hr>
+    <h2 >System Feedback & Regulations</h2>
+	<p> FAQ<img class="linkIcon"src="images/link.png"></p>
+	<p> TERMS & CONDITIONS<img class="linkIcon"src="images/link.png"></p>
+	<p> PRIVACY POLICY<img class="linkIcon"src="images/link.png"> </p>
+	<p>Partners<img class="linkIcon"src="images/link.png"></p>
+	<p>Feedback<img class="linkIcon"src="images/link.png"></p>
+	<p>Site Map<img class="linkIcon"src="images/link.png"></p>
+<br>
+</div>
+</div>
+<div class="subscribeBar">
+
+</div>
+
+<p class="newslaterWord">Newsletter Subscribe </p>
+<img class="newsletterLine" src="images/newsletterLine.png">
+<p class="newsInfo">Subscribe with Treemart to be inspired with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+<input class="subButton" placeholder="Type your email in here..."></input>
+<p class="subWord"> Subscribe Now</p>
+
+<footer class="devInfo">
+<p class="copyrightInfo">Copyright © 2002- 2019 . M M (Pvt) Ltd.</p>
+</footer>
+<script src="Jquery/newArrivals.js"></script>
+		
+
+</body>
+
+</html>

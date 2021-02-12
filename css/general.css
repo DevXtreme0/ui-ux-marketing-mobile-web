@@ -1,0 +1,32 @@
+.green.ui-link,.green{
+  color: #61bC47;
+}
+
+a.register-now{
+    color: #61bC47 !important;
+}
+
+a.password-forget{
+    color: #61bC47 !important;
+}
+
+.header-page{
+  margin-top: 20%;
+}
+
+.collapseFooter .ui-btn{
+  background-color: #61bc47 !important;
+  margin: 0 !important;
+  color: #fff;
+}
+
+.collapseFooter .ui-btn.active{
+  background-color: #12b922 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .header-page{
+    margin-top: 35%;
+  }
+
+}

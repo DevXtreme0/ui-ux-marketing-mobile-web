@@ -1,0 +1,343 @@
+<html>
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css\jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css\signup.css">
+    <link rel="stylesheet" type="text/css" href="css\general.css">
+
+    <script src="Jquery\jquery-1.11.3.min.js"></script>
+    <script src="Jquery\jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\HomePage.css">
+    <link rel="stylesheet" type="text/css" href="css\ChromeItems.css">
+
+
+</head>
+<body>
+
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase-functions.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+
+    <script src="Jquery\signup.js"></script>
+
+  <div class="header">
+    <div id="shortSlider">
+  		<div class="tag-slider">
+  			<div class="marquee down" id="marquee-down-text">
+  				<div class="sliding-words-wrapper">
+  				  <div class="sliding-words">
+  				<span> Buy 2 coca cola & Get 1 FREE </span>
+  				<span> Fresh Fruits & Vegies - Try Now </span>
+  				<span> Vouchers for expenses above 5K! </span>
+  				  </div>
+  				</div>
+  			</div>
+  		  </div>
+  	</div>
+
+<div id="myNav" class="overlay">
+	<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+	<img class="logoPanel" src= "images\logoPanel.png"></img>
+	<img class="logo" src= "images\logo.png"></img>
+	<img class="menueLine" src= "images\menueLine.png"></img>
+	<p class=logoTittle>Treemart</p>
+	<div class="greenLine"></div>
+
+  	<div class="overlay-content">
+  		<div class="accountSection">
+  	  <a  href="login.html" rel="external">Login</a>
+      <br>
+  	  <a  href="signup.html" rel="external">Signup</a></div>
+  <br><br>
+  	  <a  href="home.html" rel="external">Home</a>
+  	  <br>
+  	  <a  href="favourites.html" rel="external">Favorites</a>
+  	  <br>
+  	  <a  href="#" rel="external">Shopping Cart</a>
+  	  <br>
+  	  <a  href="Competition.html" rel="external">Competition</a>
+  <br><br>
+  	  <a  href="StoreLocate.html" rel="external">Store Locator</a>
+  	  <br>
+  	  <a  href="AboutUs.html" rel="external">About Us</a>
+  	  <br>
+  	  <a  href="Feedback.html" rel="external">System Feedback</a>
+  	  <br>
+  	</div>
+  </div>
+
+    <div class="navigationPanel">
+          <img class="logoPanelNavBar" src= "images\logoPanelNavBar.png">
+          <img class="logoNavBar" src= "images\logoNavBar.png">
+          <p class=logoTittleNavBar>Treemart</p>
+          <img class="QRScanLogo" src= "images\QRScan.png">
+          <p class=seperatorOne>|</p>
+          <img class="accountIcon" src= "images\accountIcon.png">
+          <p class=seperatorTwo>|</p>
+          <img class="loginIcon" src= "images\login.png">
+          <p class=loginWordIcon>Login</p>
+          <img class="signUpIcon" src= "images\signUpIcon.png">
+          <p class=signUpWordIcon>Sign Up</p>
+          <img class="QRScanBig" src= "images\QRScanBig.png">
+          <p class=QRScanBigWord>QR Scan</p>
+          <img class="cartGreen" src= "images\cartGreen.png">
+          <p class=cartGreenWord>Cart</p>
+          <img class="cartIcon" src= "images\cartIcon.png">
+          <p class=QRScanTittle>QR Scan</p>
+          <p class=account>Account</p>
+          <p class=cart>Cart</p>
+          <p class=horizontalLineSeperator src="images\horizontalSepratorLine.png"></p>
+          <input type="text" class="searchBar" style="padding-left:10px;" id="searchbox" placeholder=" Enter your search item(s) here...">
+          <p class="categories" style="padding-left:5px;" onclick="openNav2()">&#9660;Categories</p>
+
+          <span class="hamburgerMenuIcon" style="cursor:pointer" onclick="openNav()">&#9776; </span>
+          <img class="searchButton" src = "images\searchIcon.png" >
+    </div>
+
+    <div id="myNav2" class="overlay2">
+      <p href="javascript:void(0)" class="closebtn2" onclick="closeNav2()"><span style="color: #333333;">&times;</span></p>
+      <img class="logoPanel2" src= "images/logoPanel.png"></img>
+      <img class="logo2" src= "images/logo.png"></img>
+      <img class="menueLine2" src= "images/muneLineBlack.png"></img>
+      <p class="logoTittle2">Treemart</p>
+      <div class="greenLine2"></div>
+
+      <div class="overlay-content2">
+
+
+        <a style="text-align:left;" href="#">Frozen Foods  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Pharmacy <span style="float:right;">&#9660;</span> </a>
+          <br>
+        <a style="text-align:left;" href="#">Grocery <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Household  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Liqour  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Beverages  <span style="float:right;">&#9660;</span> </a>
+         <br>
+       <a style="text-align:left;" href="#">Homeware  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Vegetables  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Meat  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Milk Powder  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Chocolates  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Soft Drinks  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Fruits  <span style="float:right;">&#9660;</span> </a>
+        <br>
+        <a style="text-align:left;" href="#">Biscuits  <span style="float:right;">&#9660;</span> </a>
+        <br>
+      </div>
+
+      </div>
+
+</div>
+<div data-role="page" class="header-page">
+<div class="background-pic"></div>
+    <div role="main" class="ui-content signup-main-wrapper">
+      <div class="main-wrapper">
+
+        <h4 id="treemart" style="width:150px;">Login for Treemart</h4>
+
+        <div class="signup-wrapper login-wrp">
+          <div class="login">
+          <center>  <img src="images\login2.png"/> </center>
+
+          </div>
+
+          <form class="login-form"  onsubmit="buyerSignInAuthentication()">
+              <br/><br/>  <br/><br/><br/>
+
+
+            <label for="txt-name">Username</label>
+            <input type="text" name="txt-name" id="txt-name" value=""  required>
+              <label class="signup-placeholder">Enter email or phone number </label>
+
+              <br>
+
+            <label for="txt-password">Password</label>
+            <input type="password" name="txt-password" id="txt-password" value="" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <label class="signup-placeholder">Enter Password </label>
+
+
+            <div class="forget-password">
+                  <label for="forget-password"><a href="" onclick="forgetPassword()" class="green password-forget" rel="external">Forget Password</a></label>
+            </div>
+
+
+            <br/>
+
+          <div class="accept_wrapper">
+            <p>
+            <input type="checkbox" name="accept-TandC" id="accept-TandC">
+            <label for="accept-TandC" class="TandC_text">Keep me logged in. (Do not use if using a public device)</label>
+          </p>
+        </div>
+
+
+
+          <div class="submit-wrapper">
+          <center>  <input type="submit" rel="external" value="Login"></center>
+          </div>
+
+          <br/>
+
+            <center> <label for="register-now">Don't have an account?&nbsp;<a href="SignUp.html" class="green register-now" rel="external">Register Now</a></label></center>
+
+
+        </form>
+        <div class = "login-side-image">
+          <img src="images\loginsideimage.jpeg"/>
+        </div>
+      </div>
+      </div>
+    </div><!-- /content -->
+
+    <div class="goToTopButton">
+  	  <img class="goToUpImage" src="images\goToUp.png">
+  	  <p class="goToUpWord"><b>TOP</b></p>
+    </div>
+
+   <div class="collapseFooter" >
+  <button class="collapsible"><b>Our Social Network</b></button>
+  <div class="content"><br>
+  	<img class="socialNetworkIcon" src="images\facebookIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\instergramIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\linkedinIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\twitterIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\yelpIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\youtubeIcon.png">	&nbsp;
+
+  	<img class="socialNetworkIcon" src="images\pinterestIcon.png">	&nbsp;
+
+      <img class="socialNetworkIcon" src="images\whatsappIcon.png">	&nbsp;
+  </div>
+
+
+  <button class="collapsible"><b>Locations & Contact Details</b></button>
+  <div class="content">
+  	<div class="contactInfo">
+  	<h2><img class="smallIconContactDetails" src="images\office.png"> Head Office</h2>
+  	<p ><pre>
+  		Treemart HO
+  		No. 571,
+  		High Level road,
+  		Delkanda,
+  		Nugegoda</pre>
+  </div>
+  <hr>
+
+  <div class="contactInfo">
+  	<h2 ><img src="images\contact.png">&nbsp;Contact Number</h2>
+  	<p><pre>
+  		Call Now: 0115128128 / 0770128128
+  		Fax Now: 0115128128 / 0110128128</pre>
+  	</p>
+  </div>
+  <hr>
+
+  	<div class="contactInfo">
+  	<h2 ><img src="images\email.png">&nbsp;Email</h2>
+  	<p> <pre>
+  		Customer Inqueries:
+  		Treemart.CusCare@tm.lk
+
+  		Apply for an Opportunity:
+  		Treemart.Careers@tm.lk
+  	</pre>
+  	</p>
+  </div>
+  </div>
+
+  <button class="collapsible"><b>&nbsp;Additional Information</b></button>
+  <div class="content">
+  	<div class="contactInfo">
+  	<h2 >We offer</h2>
+  	<img class="financekIcon"src="images\master.png">
+  	<img class="financekIcon"src="images\stripe.png">
+  	<img class="financekIcon"src="images\visa.png">
+  	<img class="financekIcon"src="images\paypal.png">
+  	<br>
+  <hr>
+      <h2 >System Feedback & Regulations</h2>
+  	<p> FAQ<img class="linkIcon"src="images\link.png"></p>
+  	<p> TERMS & CONDITIONS<img class="linkIcon"src="images\link.png"></p>
+  	<p> PRIVACY POLICY<img class="linkIcon"src="images\link.png"> </p>
+  	<p>Partners<img class="linkIcon"src="images\link.png"></p>
+  	<p>Feedback<img class="linkIcon"src="images\link.png"></p>
+  	<p>Site Map<img class="linkIcon"src="images\link.png"></p>
+  <br>
+  </div>
+  </div>
+  <div class="subscribeBar">
+
+  </div>
+
+  <p class="newslaterWord">Newsletter Subscribe </p>
+  <img class="newsletterLine" src="images\newsletterLine.png">
+  <p class="newsInfo">Subscribe with Treemart to be inspired with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+    <!-- <input class="subButton" placeholder="Type your email in here..."></input> -->
+  <p class="subWord"> Subscribe Now</p>
+
+  <footer class="devInfo">
+  <p class="copyrightInfo">Copyright © 2002- 2019 . M M (Pvt) Ltd.</p>
+  </footer>
+
+</div><!-- /page -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+<script>
+
+    function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+
+<script>
+	function openNav2() {
+	  document.getElementById("myNav2").style.width = "100%";
+	}
+
+	function closeNav2() {
+	  document.getElementById("myNav2").style.width = "0%";
+	}
+	</script>
+</body>
+</html>
