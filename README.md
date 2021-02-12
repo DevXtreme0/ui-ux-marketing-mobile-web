@@ -1,8 +1,6 @@
-# ui-ux-marketing-mobile-web-app
+# Marketing web app for the supermarket
 
-<h1>Source code will be available soon</h1>
-
-Mobile User Experience
+Mobile User Experience and User Interface for Tab and Mobile devices
 
 Demo Video URL:
  https://youtu.be/ceD6Rz6B91g
